@@ -3,6 +3,9 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# GApps
+TARGET_GAPPS_ARCH := arm64
+
 # Inherit some common Dot stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 
