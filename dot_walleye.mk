@@ -10,7 +10,7 @@ TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/dot/config/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/google/taimen/aosp_walleye.mk)
+$(call inherit-product, device/google/walleye/aosp_walleye.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := dot_walleye
